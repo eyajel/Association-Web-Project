@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200&family=Ubuntu&display=swap');
+body{
+background: rgb(0,102,153);
+background: linear-gradient(90deg, rgba(0,102,153,1) 0%, rgba(17,142,204,1) 35%, rgba(178,217,232,1) 100%);
+font-family: poppins, sans-serif;
+background-repeat: no-repeat;
+background-position: fixed;
+}
+
+
+.container{
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+.contact-box{
+  background: #fff;
+  display: flex;
+  border-radius: 20px;
+}
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius:20px ;
+}
+.contact-right{
+  flex-basis: 40%;
+  padding: 40px ;
+  background-image: linear-gradient(to right,#0070a8,#006699);
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px ;
+}
+h1{
+  margin-bottom: 10px;
+  color:white;
+  font-size: 70px;
+  font-weight:800;
+
+}
+.container p{
+  margin-bottom: 40px;
+}
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: #006699;
+}
+button{
+  background: #006699;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(62, 68, 70, 0.3);
+}
+button:hover{
+  background-color: #0f90d0;
+  transition:0.6s;
+  cursor:pointer;
+}
+.contact-left h3{
+  color:#006699;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-right h3{
+  
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top: 20px;
+}
+span{
+  font-weight: bold;
+}
+#question{
+  font-size: smaller;
+  color: rgb(96, 96, 96);
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+#question:hover{
+  color:#0f90d0;
+  cursor:pointer;
+  transition: 0.8s;
+}
+select{
+  width:100%;
+  height: 50%;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.sexe-input{
+  display: flex;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adhésion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Adhésion</h1>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Envoyez votre demande</h3>
+                <form>
+                     
+                     <div class="input-row">
+                        <div class="input-group">
+                            <label>Nom*</label>
+                            <input type="text" placeholder="Nom ">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>Prénom*</label>
+                            <input type="text" placeholder="Prénom ">
+                        </div>
+                         
+                     </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email*</label>
+                            <input type="email" placeholder="evae@gmail.com ">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>Téléphone*</label>
+                            <input type="text" placeholder="+216 ** *** ** ">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Ville</label>
+                            <select id="Ville" class="input">
+                                <option>Tunis</option>
+                                <option>Sousse</option>
+                                <option>Monastir</option>
+                                <option>Binzart</option>
+                                <option>Beja</option>
+                                <option>Kairouane</option>
+                                <option>Tabarka</option>
+                                <option>Tozeur</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>Date de naissance*</label>
+                            <input type="date" required >
+                            
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Sexe*</label>
+                            <div class="sexe-input">
+                                Femme<input type="radio" name="sexe" checked>
+                                Homme<input type="radio" name="sexe" checked>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>Niveau d'étude*</label>
+                            <select id="Niveau">
+                                <option>Baccalauréat</option>
+                                <option>Master</option>
+                                <option>Doctorat</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+
+                    <div>
+                        <label>Mot de passe*</label>
+                        <input type="password">
+                    </div>
+                    <br>
+
+                    <label>Pourquoi souhaitiez-vous rejoindre notre association ?</label>
+                    <textarea  rows="5" placeholder="Votre message"></textarea>
+                        
+                    <button type="submit">S'inscrire</button>
+                    <a id="question" href="/signin/signin.html">Vous êtes déja un membre?</a>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <h3>Rejoins-nous</h3>
+                <table>
+                    <tr>
+                        <td><span>Email</span></td>
+                        <td>EVA_ENSI@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><span>Numéro de téléphone</span></td>
+                        <td>+216 96 805 866</td>
+                    </tr>
+                    <tr>
+                        <td><span>Adresse</span></td>
+                        <td> ENSI - Réctorat la Manouba<br></td>
+                    </tr>
+                    
+                </table>
+                
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>

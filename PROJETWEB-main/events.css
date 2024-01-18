@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200&family=Ubuntu&display=swap');
+@keyframes slide-in {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 28%;
+  }
+}
+body{
+  box-sizing: border-box;
+  margin:0;
+  background-color: #f5f5f5;
+}
+
+/*navbar*/
+header{
+  z-index: 999;
+  position: fixed;
+  padding-top: 3px;
+  color:#003d4c;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  width:100%;
+  height:4.5em;
+  display:flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to left, #006699,#b2d9e8,white);
+  opacity:0.9;
+}
+#logo{
+  margin: 0px;
+  width:130px;
+  height:68px;
+  opacity: 0.9;
+}
+nav ul{
+  font-size:20px;
+  display:flex;
+  gap:3em;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+  color:#003d4c98;
+}
+a:hover{
+  color:white;
+  transition:0.4s;
+}
+#sign-up{
+  color: white;
+}
+#sign-up:hover{
+  color:#003d4c;
+}
+
+#number{
+  font-family: arial;
+  font-size: 100px;
+  background: linear-gradient(rgb(85, 190, 247) 60%,white 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  width:10%;
+  position:absolute;
+  z-index:999;
+  display: none;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+ul li:hover ul.dropdown {
+  display: block ;
+  background-color:#b2d9e8 ;
+  color:#003d4c;
+  opacity:0.9;cursor:pointer;
+  list-style: circle;
+  padding: 1em;
+}
+.dropdown a:hover{
+  transition:0.7s;
+  color:white;
+}
+
+/*title*/
+
+.title-container{
+  background-image: linear-gradient(rgba(128, 128, 128, 0.151),rgba(128, 128, 128, 0.134)),url(./assets/events.jpg);
+  background-position: 40% 30%;
+  height: 30em;
+  width:100%; 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title{
+  position: absolute;
+  animation-name:slide-in;
+  animation-duration: 2s;
+  font-size: 100px;
+  margin-top: 10%;
+  color:white;
+  font-family: poppins , sans-serif;
+  font-weight: 800;
+}
+
+/*events*/
+
+.events{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-container{
+  font-family: poppins, sans-serif;
+  display: flex;
+  margin:1em;
+  height:fit-content;
+  width: 70em;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow:3px 3px 10px rgba(128, 128, 128, 0.303) ;
+  overflow: hidden;
+}
+
+.event-description{
+  padding:2em;
+  flex:0.6;
+}
+.image-container{
+  flex:0.4;
+  background-color: aqua;
+  background-position: 60%;
+  background-size: cover;
+}
+
+/*footer*/
+.footer-container{
+  height:15em;
+  background-image: linear-gradient(to right, #006699,#b2d9e8);
+  display:flex;
+  justify-content: center;
+  color:rgba(255, 255, 255, 0.895);
+  gap:5em;
+  font-family: montserrat,sans-serif;
+}
+div li{
+  list-style: none;
+}
+.logos-container{
+  display:flex;
+  gap:1em;
+  justify-content: center;
+}
+.logos-container img{
+  width:40px;
+  height:40px;
+}
+input{
+  text-align: center;
+  width:18em;
+  height:3em;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-style: none;
+}
+.footer-container button{
+  height:3.15em;
+  background-color: #006699;
+  color:white;
+  width:6em;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-style: none;
+}
+.footer-container button:hover{
+  background-color: #118ecc;
+  transition: 0.5s;
+  cursor:pointer;
+}
+.footer-container h3{
+  color:#003d4c98;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003d4c;
+  text-align: center;
+  color:rgba(255, 255, 255, 0.605);
+  font-family: montserrat,sans-serif;
+  width:100%;
+  height:5em;
+}
+#footer-logo{
+  margin-top: 2.5em;
+  width:350px;
+  height:150px;
+  opacity: 0.8;
+}
+.event-container h3{
+  color:#003d4c;
+  font-weight:bold;
+  text-decoration: underline;
+}
+.event-container h4{
+  color:#003d4ccf;
+  font-weight:bold;
+}
+
+.more-information:hover{
+  color:#118ecc;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+
+
